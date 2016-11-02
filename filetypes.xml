@@ -1,0 +1,22 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.orig;*.pyc;*.pyo;*.rbc;*~;-mix;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping ext="hb" type="Handlebars/Mustache" />
+      <mapping pattern="temp.json" type="PLAIN_TEXT" />
+      <mapping pattern="compiler" type="PLAIN_TEXT" />
+      <mapping pattern="t" type="PLAIN_TEXT" />
+      <mapping ext="s" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="php" type="PLAIN_TEXT" />
+      <mapping ext="mp3" type="PLAIN_TEXT" />
+      <mapping ext="fjs" type="PLAIN_TEXT" />
+      <mapping ext="srt" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="pak" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="map" type="SourceMap" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,21 @@
+<application>
+  <component name="libraryTable">
+    <library name="Dart SDK">
+      <CLASSES>
+        <root url="file://$USER_HOME$/Downloads/dart 5/dart-sdk/lib" />
+      </CLASSES>
+      <SOURCES />
+      <excluded>
+        <root url="file://$USER_HOME$/Downloads/dart 5/dart-sdk/lib/_blink" />
+        <root url="file://$USER_HOME$/Downloads/dart 5/dart-sdk/lib/_chrome" />
+        <root url="file://$USER_HOME$/Downloads/dart 5/dart-sdk/lib/_internal" />
+      </excluded>
+    </library>
+    <library name="karma-jasmine-DefinitelyTyped" type="javaScript">
+      <CLASSES>
+        <root url="file://$USER_HOME$/Library/Caches/WebStorm9/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_karma-jasmine_karma-jasmine.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>

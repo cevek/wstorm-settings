@@ -1,0 +1,31 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="INSTRUMENTATION" value="ASSERT" />
+    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
+    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
+    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
+    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="JQuery-CSS" injector-id="js">
+      <display-name>class</display-name>
+      <place disabled="true"><![CDATA[jsLiteralExpression().and(jsLiteralExpression()).withParent(psiElement().withParent(psiElement().withText(string().startsWith("d("))))]]></place>
+    </injection>
+    <injection language="JQuery-CSS" injector-id="js">
+      <display-name>class2</display-name>
+      <place><![CDATA[jsLiteralExpression().and(jsArgument("vd", 0))]]></place>
+    </injection>
+    <injection language="CSS" injector-id="js">
+      <display-name>style</display-name>
+      <prefix>dummy{</prefix>
+      <suffix>}</suffix>
+      <place disabled="true"><![CDATA[jsLiteralExpression().withParent(psiElement().withText(string().startsWith("style:")))]]></place>
+    </injection>
+    <injection language="TypeScript" injector-id="xml">
+      <display-name>*/@ts</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ts"))]]></place>
+    </injection>
+    <injection language="HTML" injector-id="xml">
+      <display-name>div/@class</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("class")).withParent(xmlTag().withLocalName(string().equalTo("div")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>

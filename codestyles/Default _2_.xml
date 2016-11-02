@@ -1,0 +1,10 @@
+<code_scheme name="Default (2)">
+  <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <codeStyleSettings language="TypeScript">
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+  </codeStyleSettings>
+</code_scheme>

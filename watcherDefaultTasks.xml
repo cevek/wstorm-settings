@@ -1,0 +1,336 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="main.ts --target es5 --out /dev/null" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/tsc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$USER_HOME$/Dev/editor/editor2" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--sourcemap --out out/$FilePathRelativeToProjectRoot$ $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Transpiles ECMAScript 6 code to ECMAScript 5" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Traceur compiler" />
+      <option name="output" value="out/$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/traceur" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$USER_HOME$/Dev/tsts/ts/built/local/tc.js --sourcemap $FileName$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript2" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/node" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-color $FileName$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="LESS" />
+      <option name="output" value="$FileNameWithoutExtension$.css" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="lessc error format" />
+            <option name="name" value="lessc" />
+            <option name="regExp" value="$MESSAGE$$FILE_PATH$?:$LINE$:$COLUMN$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="/usr/local/bin/lessc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--sourcemap  all.ts --out compiled/script.js --noImplicitAny --target es5" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript demo1" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/tsc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$/demo1" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--sourcemap  all.ts --out compiled/script.js --noImplicitAny --target es5" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript demo2" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/tsc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$/demo2" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--sourcemap  all.ts --out compiled/script.js --noImplicitAny --target es5" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript demo4" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/tsc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$/demo4" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--sourcemap  all.ts --out compiled/script.js --noImplicitAny --target es5" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript demo3" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/tsc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$/demo3" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--sourcemap  all.ts --out compiled/script.js --noImplicitAny --target es5" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript rcdemo" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/tsc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$/rcdemo" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--sourcemap  Argentum.ts --out compiled/script.js --noImplicitAny --target es5" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript Argentum" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/tsc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$/lib" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--sourcemap  all.ts --out compiled/script.js --noImplicitAny --target es5" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript formdemo" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/tsc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$/formdemo" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="watcher/watcher.js $ProjectFileDir$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .ts files into .js files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TypeScript formdemo Copy" />
+      <option name="output" value="$FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tsc error format" />
+            <option name="name" value="tsc" />
+            <option name="regExp" value="$FILE_PATH$\($LINE$,$COLUMN$\): $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/node" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="ts" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/node" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FilePath$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="css" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="css.d.ts" />
+      <option name="output" value="$FilePath$.d.ts" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/usr/local/bin/css-dts" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="" />
+      <envs />
+    </TaskOptions>
+  </component>
+</application>
