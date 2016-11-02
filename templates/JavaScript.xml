@@ -53,7 +53,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="comp" value="import * as React from 'react';&#10;&#10;interface $NAME$Props {&#10;&#10;}&#10;&#10;export class $NAME$ extends React.Component&lt;$NAME$Props, {}&gt; {&#10;    render() {&#10;        return (&#10;            &lt;div className=&quot;&quot;&gt;&#10;                $NAME$&#10;            &lt;/div&gt;        &#10;        );    &#10;    }&#10;}&#10;" description="React.Componen" toReformat="false" toShortenFQNames="true">
+  <template name="comp" value="import * as React from 'react';&#10;&#10;interface $NAME$Props {&#10;&#10;}&#10;&#10;export class $NAME$ extends React.Component&lt;$NAME$Props, {}&gt; {&#10;    render() {&#10;        const {} = this.props;&#10;        return (&#10;            &lt;div className=&quot;&quot;&gt;&#10;                $NAME$&#10;            &lt;/div&gt;        &#10;        );    &#10;    }&#10;}&#10;" description="React.Componen" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
