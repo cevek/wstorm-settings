@@ -1,0 +1,17 @@
+<templateSet group="JavaScript">
+  <template name="var" value="const " shortcut="SPACE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="f" value="() =&gt; {&#10;    $SELECTION$&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log($SELECTION$);" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
