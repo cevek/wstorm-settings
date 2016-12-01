@@ -5,6 +5,7 @@
       <mapping ext="hb" type="Handlebars/Mustache" />
       <mapping pattern="t" type="PLAIN_TEXT" />
       <mapping pattern="temp.json" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="compiler" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
