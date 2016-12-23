@@ -20,4 +20,10 @@
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="comp" value="import * as React from 'react';&#10;&#10;export interface $NAME$Props {&#10;    abc: string;&#10;}&#10;&#10;export class $NAME$ extends React.Component&lt;$NAME$Props, {}&gt; {&#10;    render() {&#10;        const {abc} = this.props;&#10;        return (&#10;            &lt;div className=&quot;&quot;&gt;&lt;/div&gt; &#10;        );&#10;    }&#10;}" description="React.Component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
