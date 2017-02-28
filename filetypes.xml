@@ -10,6 +10,7 @@
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
+      <mapping ext="dylib" type="PLAIN_TEXT" />
       <mapping ext="php" type="PLAIN_TEXT" />
       <mapping ext="srt" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
@@ -21,6 +22,7 @@
       <mapping ext="asm" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="map" type="SourceMap" />
+      <removed_mapping ext="dylib" type="UNKNOWN" />
     </extensionMap>
   </component>
 </application>
