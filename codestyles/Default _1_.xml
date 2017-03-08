@@ -6,6 +6,8 @@
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
+    <option name="UNION_TYPES_WRAP" value="0" />
+    <option name="SPACES_WITHIN_OBJECT_TYPE_BRACES" value="false" />
   </TypeScriptCodeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
