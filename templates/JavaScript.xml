@@ -11,6 +11,7 @@
   </template>
   <template name="cl" value="console.log($SELECTION$);" description="" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
