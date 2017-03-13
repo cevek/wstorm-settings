@@ -1,6 +1,7 @@
 <templateSet group="JavaScript">
   <template name="var" value="const " shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
