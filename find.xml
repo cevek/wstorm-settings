@@ -13,7 +13,6 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.scss</mask>
       <mask>*t</mask>
       <mask>*ts</mask>
       <mask>*tsx</mask>
@@ -21,6 +20,12 @@
       <mask>*.tsx?</mask>
       <mask>*.tsx</mask>
       <mask>*.ts</mask>
+      <mask>*.t</mask>
+      <mask>*.</mask>
+      <mask>*.s</mask>
+      <mask>*.sc</mask>
+      <mask>*.scs</mask>
+      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
