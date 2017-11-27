@@ -28,4 +28,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="u" value="undefined" shortcut="SPACE" description="undefined" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
